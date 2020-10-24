@@ -1,0 +1,12 @@
+go build
+
+myblockchain.exe createblockchain -address iki
+
+myblockchain.exe getbalance -address iki
+
+myblockchain.exe send -from iki -to iki -amount 4
+%x [14 64 38 20 65 172 46 148 77 223 201 13 153 185 222 59 129 168 33 70 146 52 81 59 174 241 154 236 71 213 214 213]
+Success!
+
+myblockchain.exe getbalance -address iki
+Balance of 'iki': 20
